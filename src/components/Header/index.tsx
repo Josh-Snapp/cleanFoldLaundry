@@ -6,8 +6,6 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
-import logo from "/src/images/CleanFold-01.png";
-
 const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -59,14 +57,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src={logo}
+                  src="/images/logo/CleanFold-01.png"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src={logo}
+                  src="/images/logo/CleanFold-01.png"
                   alt="logo"
                   width={250}
                   height={50}
