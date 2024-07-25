@@ -146,7 +146,7 @@ const Footer = () => {
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
         </div>
-        <div className="absolute right-0 top-14 z-[-1]">
+        {/* <div className="absolute right-0 top-14 z-[-1]">
           <svg
             width="55"
             height="99"
@@ -219,7 +219,7 @@ const Footer = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </footer>
     </>
   );

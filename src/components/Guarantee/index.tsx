@@ -1,12 +1,12 @@
 import SectionTitle from "../Common/SectionTitle";
 
-const Video = () => {
+const Guarantee = () => {
   return (
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Fresh and Clean Guarantee"
+          paragraph="We strive to make sure every aspect of your laundry order is done to perfection. If you are not completely satisfied with the quality of your order, we will meet with you to see what we can do to exceed your expectations."
           center
           mb="80px"
         />
@@ -19,4 +19,4 @@ const Video = () => {
   );
 };
 
-export default Video;
+export default Guarantee;

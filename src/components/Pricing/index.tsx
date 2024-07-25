@@ -9,41 +9,44 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Palm Bay / Mebourn Area Customer"
+          paragraph="Your Choice Pricing"
           center
           width="665px"
         />
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={"20"}
+            packageName="Recurring"
+            price={"1.89"}
             duration={"lb"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle=""
           >
-            <OfferList text="First" status="active" />
-            <OfferList text="Second" status="inactive" />
-            <OfferList text="Third" status="inactive" />
+            <OfferList text="Recurring $1.89/lb" status="active" />
+            <OfferList text="1-2 Day Service" status="active" />
+            <OfferList text="$30 minimum order" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={"60"}
+            packageName="One Time"
+            price={"2.09"}
             duration={"lb"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle=""
           >
-            <OfferList text="First" status="active" />
-            <OfferList text="Second" status="active" />
-            <OfferList text="Third" status="inactive" />
+            <OfferList text="On-Demand $2.09" status="active" />
+            <OfferList text="1-2 Day Service" status="active" />
+            <OfferList text="$40 minimum order" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={"80"}
+            packageName="Same Day"
+            price={"2.39"}
             duration={"lb"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle=""
           >
-            <OfferList text="First" status="active" />
-            <OfferList text="Second" status="active" />
-            <OfferList text="Third" status="active" />
+            <OfferList text="$2.39/lb Same Day Service" status="active" />
+            <OfferList
+              text="Pickup by 10AM - Delivery by 7PM"
+              status="active"
+            />
+            <OfferList text="$45 minimum order" status="active" />
           </PricingBox>
         </div>
       </div>
