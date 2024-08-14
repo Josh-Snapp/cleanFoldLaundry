@@ -21,25 +21,6 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
-    title: "Delivery Areas",
-    newTab: false,
-    submenu: [
-      {
-        id: 41,
-        title: "Melbourne, FL",
-        path: "/about",
-        newTab: false,
-      },
-      {
-        id: 42,
-        title: "West Melbourne, FL",
-        path: "/contact",
-        newTab: false,
-      },
-    ],
-  },
-  {
-    id: 5,
     title: "About Us",
     newTab: false,
     submenu: [

@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import CleanFoldLogo from "../Icons/CleanFoldLogo";
 
 const Header = () => {
   // Navbar toggle
@@ -48,6 +49,57 @@ const Header = () => {
         }`}
       >
         <div className="container">
+          <div className="flex flex-col items-center justify-center bg-white px-4 py-2 dark:bg-dark">
+            <div className=" text-sm font-semibold text-gray-700 dark:text-gray-300">
+              Customer Service
+            </div>
+            <div className="flex items-center space-x-4">
+              <div className="flex items-center pr-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="mr-2 h-4 w-4 text-primary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+                <div>
+                  <a
+                    href="tel:+1234567890"
+                    className="text-xs text-primary dark:text-primary sm:text-sm md:text-base"
+                  >
+                    +1 (234) 567-890
+                  </a>
+                </div>
+              </div>
+              <div className="mt-1 flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="mr-2 h-3 w-3 text-gray-600 dark:text-gray-400 sm:h-4 sm:w-4" /// Adjust size and color as needed
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm0 2a10 10 0 100-20 10 10 0 000 20z"
+                    clipRule="evenodd"
+                  />
+                  <path
+                    fillRule="evenodd"
+                    d="M10 4.5a1 1 0 011 1v4h2.5a1 1 0 110 2H10a1 1 0 01-1-1V5.5a1 1 0 011-1z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                <p className="text-xs sm:text-sm md:text-base">M-F 9am-5pm</p>
+              </div>
+            </div>
+          </div>
           <div className="relative -mx-4 flex items-center justify-between">
             <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link
@@ -56,20 +108,7 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <Image
-                  src="/images/logo/CleanFold-01.png"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
-                />
-                <Image
-                  src="/images/logo/CleanFold-01.png"
-                  alt="logo"
-                  width={250}
-                  height={50}
-                  className="hidden w-full dark:block"
-                />
+                <CleanFoldLogo />
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
@@ -96,6 +135,7 @@ const Header = () => {
                     }`}
                   />
                 </button>
+
                 <nav
                   id="navbarCollapse"
                   className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
@@ -165,6 +205,7 @@ const Header = () => {
                 >
                   Schedule Pickup
                 </Link>
+
                 <div>
                   <ThemeToggler />
                 </div>
