@@ -24,8 +24,8 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-16 lg:py-16">
       <div className="container">
         <SectionTitle
-          title={`${currentLocation === "StPete" ? "St. Pete Area" : "Palm Bay / Melbourne Area"} Customer`}
-          paragraph="Your Choice Pricing"
+          title={`${currentLocation === "StPete" ? "St. Petersburg Area" : "Palm Bay / Melbourne Area"} Customer Pricing`}
+          paragraph="Commercial Pricing available upon request"
           center
           width="665px"
         />

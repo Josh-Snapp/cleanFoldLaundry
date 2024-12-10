@@ -5,7 +5,7 @@ const CleanFoldLogo = () => {
       xmlns="http://www.w3.org/2000/svg"
       version="1.1"
       viewBox="0 0 2048 713"
-      width="250"
+      width="150"
       height="50"
     >
       <path

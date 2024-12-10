@@ -4,16 +4,16 @@ import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
 
-const Features = () => {
+const Services = () => {
   const { theme } = useTheme();
   const features = featuresData(theme);
   return (
     <>
-      <section id="features" className="lg:pb-15 md:pt-15 mt-16 pb-16 pt-28 ">
+      <section id="services" className="lg:pb-15 md:pt-15 mt-28 pb-16 pt-28 ">
         <div className="container">
           <SectionTitle
             title="Services"
-            paragraph="We provide the best laundry services in the area."
+            paragraph="We provide reliable self-service, residential and commercial delivery services."
             center
           />
 
@@ -28,4 +28,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default Services;

@@ -71,10 +71,10 @@ const Header = () => {
                 </svg>
                 <div>
                   <a
-                    href="tel:+1234567890"
+                    href="tel:+3212227176"
                     className="text-xs text-primary dark:text-primary sm:text-sm md:text-base"
                   >
-                    +1 (234) 567-890
+                    (321)-222-7176
                   </a>
                 </div>
               </div>
@@ -96,7 +96,13 @@ const Header = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                <p className="text-xs sm:text-sm md:text-base">M-F 9am-5pm</p>
+                <div className="flex-col">
+                  <p className="text-xs sm:text-sm md:text-base">M-F 8am-6pm</p>
+                  <p className="text-xs sm:text-sm md:text-base">
+                    Sat 8am-12pm
+                  </p>
+                  <p className="text-xs sm:text-sm md:text-base"> Sun Closed</p>
+                </div>
               </div>
             </div>
           </div>

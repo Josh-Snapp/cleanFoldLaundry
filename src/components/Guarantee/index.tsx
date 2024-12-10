@@ -2,7 +2,7 @@ import SectionTitle from "../Common/SectionTitle";
 
 const Guarantee = () => {
   return (
-    <section className="relative z-10 py-16">
+    <section id="guarantee" className="relative z-10 py-16">
       <div className="container">
         <SectionTitle
           title="Fresh and Clean Guarantee"

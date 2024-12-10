@@ -55,7 +55,7 @@ const featuresData = (theme): Feature[] => {
       ),
       title: "Pickup and Delivery",
       paragraph:
-        "You don't even have to leave your house when you use our pickup and delivery laundry service. We will come to you!",
+        "No time for laundry? We can help! Your laundry delivered fresh &amp; neatly folded within 1-2 business days!",
     },
     {
       id: 2,
@@ -111,7 +111,7 @@ const featuresData = (theme): Feature[] => {
       ),
       title: "Commerical Laundry",
       paragraph:
-        "Don't waste your valuable time and resources on doing your business's laundry yourself. We can lighten yourload by taking care of your laundry for you!",
+        "We offer custom quotes for: gyms, spas, colleges, hotels/motels, pet groomers, vacation rentals (VRBO, AirBnb, etc.), restaurants/catering businesses, doctor offices, sports teams, and more!",
     },
 
     {
@@ -146,7 +146,7 @@ const featuresData = (theme): Feature[] => {
       ),
       title: "Self Serve",
       paragraph:
-        "Come into our family friendly laundromat near Johnstown to do your laundry in  a clean and comfortable environment.",
+        "Come visit us at any one of our clean, family friendly stores! We offer ATMs, free WIFI, A/C, and vending machines stocked with snacks, drinks, laundry soap, and fabric softeners for your added convenience.",
     },
   ];
 };
