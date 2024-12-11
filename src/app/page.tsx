@@ -5,6 +5,7 @@ import Independent from "@/components/Independent";
 import Pricing from "@/components/Pricing";
 
 import { Metadata } from "next";
+import StickyButton from "@/components/FooterButton";
 
 export const metadata: Metadata = {
   title: "Clean Fold Laundy",
@@ -20,6 +21,7 @@ export default function Home() {
       <Pricing />
       <Guarantee />
       <Independent />
+      <StickyButton />
     </>
   );
 }

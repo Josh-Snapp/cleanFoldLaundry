@@ -53,56 +53,60 @@ const Header = () => {
             <div className=" text-sm font-semibold text-gray-700 dark:text-gray-300">
               Customer Service
             </div>
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center pr-5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="mr-2 h-4 w-4 text-primary"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="2"
+
+            <div className="flex items-center pr-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="mr-2 h-4 w-4 text-primary"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                />
+              </svg>
+              <div>
+                <a
+                  href="tel:+3212227176"
+                  className="text-xs text-primary dark:text-primary sm:text-sm md:text-base"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                  />
-                </svg>
-                <div>
-                  <a
-                    href="tel:+3212227176"
-                    className="text-xs text-primary dark:text-primary sm:text-sm md:text-base"
-                  >
-                    (321)-222-7176
-                  </a>
-                </div>
+                  (321)-222-7176
+                </a>
               </div>
-              <div className="mt-1 flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="mr-2 h-3 w-3 text-gray-600 dark:text-gray-400 sm:h-4 sm:w-4" /// Adjust size and color as needed
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm0 2a10 10 0 100-20 10 10 0 000 20z"
-                    clipRule="evenodd"
-                  />
-                  <path
-                    fillRule="evenodd"
-                    d="M10 4.5a1 1 0 011 1v4h2.5a1 1 0 110 2H10a1 1 0 01-1-1V5.5a1 1 0 011-1z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                <div className="flex-col">
-                  <p className="text-xs sm:text-sm md:text-base">M-F 8am-6pm</p>
-                  <p className="text-xs sm:text-sm md:text-base">
-                    Sat 8am-12pm
-                  </p>
-                  <p className="text-xs sm:text-sm md:text-base"> Sun Closed</p>
-                </div>
+            </div>
+            <div className="mt-1 flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="mr-2 h-3 w-3 text-gray-600 dark:text-gray-400 sm:h-4 sm:w-4" /// Adjust size and color as needed
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm0 2a10 10 0 100-20 10 10 0 000 20z"
+                  clipRule="evenodd"
+                />
+                <path
+                  fillRule="evenodd"
+                  d="M10 4.5a1 1 0 011 1v4h2.5a1 1 0 110 2H10a1 1 0 01-1-1V5.5a1 1 0 011-1z"
+                  clipRule="evenodd"
+                />
+              </svg>
+              <div className="flex">
+                <p className="pr-2 text-xs sm:text-sm md:text-base">
+                  M-F 8am-6pm
+                </p>
+                <p className="pr-2 text-xs sm:text-sm md:text-base">
+                  Sat 8am-12pm
+                </p>
+                <p className="pr-2 text-xs sm:text-sm md:text-base">
+                  {" "}
+                  Sun Closed
+                </p>
               </div>
             </div>
           </div>
@@ -111,7 +115,7 @@ const Header = () => {
               <Link
                 href="/"
                 className={`header-logo block w-full ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
+                  sticky ? "py-2 lg:py-2" : "py-6"
                 } `}
               >
                 <CleanFoldLogo />
