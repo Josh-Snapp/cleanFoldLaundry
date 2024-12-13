@@ -99,10 +99,6 @@ const Header = () => {
                 <p className="pr-2 text-xs sm:text-sm md:text-base">
                   Sat 8am-12pm
                 </p>
-                <p className="pr-2 text-xs sm:text-sm md:text-base">
-                  {" "}
-                  Sun Closed
-                </p>
               </div>
             </div>
           </div>
