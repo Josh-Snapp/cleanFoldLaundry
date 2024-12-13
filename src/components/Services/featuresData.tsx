@@ -55,7 +55,7 @@ const featuresData = (theme): Feature[] => {
       ),
       title: "Pickup and Delivery",
       paragraph:
-        "No time for laundry? We can help! Your laundry delivered fresh &amp; neatly folded within 1-2 business days!",
+        "No time for laundry? We can help! Your laundry delivered fresh & neatly folded within 1-2 business days!",
     },
     {
       id: 2,
