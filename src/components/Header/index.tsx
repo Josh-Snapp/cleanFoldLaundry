@@ -50,10 +50,6 @@ const Header = () => {
       >
         <div className="container">
           <div className="flex flex-col items-center justify-center bg-white px-4 py-2 dark:bg-dark">
-            <div className=" text-sm font-semibold text-gray-700 dark:text-gray-300">
-              Customer Service
-            </div>
-
             <div className="flex items-center pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
