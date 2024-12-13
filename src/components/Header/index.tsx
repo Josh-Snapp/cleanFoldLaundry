@@ -102,7 +102,7 @@ const Header = () => {
               </div>
               <div>
                 <a
-                  href="email"
+                  href="mailto:sales@cleanfoldlaundry.com"
                   className="text-xs text-primary dark:text-primary sm:text-sm md:text-base"
                 >
                   sales@cleanfoldlaundry.com
