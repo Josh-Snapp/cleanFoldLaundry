@@ -100,10 +100,24 @@ const Header = () => {
                   (321)-222-7176
                 </a>
               </div>
-              <div>
+              <div className="flex items-center">
+                <svg
+                  className="mr-1 h-4 w-4 text-primary"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 22 21"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z"
+                    fill="#080341"
+                  />
+                </svg>
                 <a
                   href="mailto:sales@cleanfoldlaundry.com"
-                  className="text-xs text-primary dark:text-primary sm:text-sm md:text-base"
+                  className="pl-1 text-xs text-primary dark:text-primary sm:text-sm md:text-base"
                 >
                   sales@cleanfoldlaundry.com
                 </a>
