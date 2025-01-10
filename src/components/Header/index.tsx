@@ -224,7 +224,7 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
-                  href="/signup"
+                  href="https://cleanfoldlaundry.curbsidelaundries.com/"
                   className="ease-in-up lg:px- hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-3 xl:px-3"
                 >
                   Schedule Pickup
