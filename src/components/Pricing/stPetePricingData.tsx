@@ -15,9 +15,9 @@ const stPeteData = () => {
     {
       id: 2,
       title: "One Time",
-      pricing: "2.09",
+      pricing: "2.19",
       attributes: [
-        { text: "On-Demand $2.09", status: "active" },
+        { text: "On-Demand $2.19", status: "active" },
         { text: "1-2 Day Service", status: "active" },
         { text: "$40 minimum order", status: "active" },
       ],

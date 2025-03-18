@@ -6,7 +6,10 @@ const Independent = () => {
       <div className="container">
         <SectionTitle
           title=" INDEPENDENTLY OWNED AND OPERATED! No 3rd Party Vendors!"
-          paragraph="This means knowing exactly who is caring for your laundry and who to call with questions or special requests! We can offer flexibility!"
+          paragraph="WE LOVE OUR BUSINESS AND WE LOVE LAUNDRY. This means
+knowing exactly who is caring for your laundry and who to call with
+questions or special requests! We offer flexibility while not using
+contractors, or gig-workers!"
           center
           mb="80px"
         />

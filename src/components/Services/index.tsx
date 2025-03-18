@@ -7,13 +7,19 @@ import featuresData from "./featuresData";
 const Services = () => {
   const { theme } = useTheme();
   const features = featuresData(theme);
+  const paragraph = [
+    "Our Premier Laundry Service offers pickup and delivery service, to make laundry easy by skipping it and leaving it to us. Your Laundry Delivered to your door. Sign up for weekly or bi-weekly service for already discounted services.",
+    " ",
+    "USE PROMO CODE “TRY 10” to save 10 Percent on your first order today.",
+  ];
+
   return (
     <>
-      <section id="services" className="lg:pb-15 md:pt-15 mt-28 pb-16 pt-28 ">
+      <section id="services" className="lg:pb-15 md:pt-15 pb-16 pt-12 ">
         <div className="container">
           <SectionTitle
-            title="Services"
-            paragraph="We provide reliable self-service, residential and commercial delivery services."
+            title="Premier Laundry Services"
+            paragraph={paragraph}
             center
           />
 
