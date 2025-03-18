@@ -17,11 +17,7 @@ const Services = () => {
     <>
       <section id="services" className="lg:pb-15 md:pt-15 pb-16 pt-12 ">
         <div className="container">
-          <SectionTitle
-            title="Premier Laundry Services"
-            paragraph={paragraph}
-            center
-          />
+          <SectionTitle title="Premier Laundry Services" paragraph="" center />
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
             {features.map((feature) => (

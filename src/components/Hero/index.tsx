@@ -11,8 +11,17 @@ const Hero = () => {
               <div className="w-full px-4">
                 <div className="mx-auto max-w-[800px] text-center">
                   <h1 className="mb-5 text-3xl font-bold leading-tight  text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                    Clean Fold Laundry!
+                    Clean Fold Laundry
                   </h1>
+                  <p className="mb-6 text-lg text-gray-600 dark:text-gray-300">
+                    Our Premier Laundry Service offers pickup and delivery
+                    service, to make laundry easy by skipping it and leaving it
+                    to us. Your Laundry Delivered to your door. Sign up for
+                    weekly or bi-weekly service for already discounted services.
+                    <br />
+                    USE PROMO CODE “TRY 10” to save 10 Percent on your first
+                    order today.
+                  </p>
                 </div>
               </div>
             </div>
