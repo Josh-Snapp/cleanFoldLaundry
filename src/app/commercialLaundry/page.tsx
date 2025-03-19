@@ -3,6 +3,7 @@ import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Commercial Laundry ServicesS",
@@ -70,9 +71,9 @@ const CommercialLaundryPage = () => {
           </p>
           <p>
             <strong>Contact Us for your custom quote:</strong>{" "}
-            <a href="/contact" className="text-blue-500 hover:underline">
+            <Link href="/contact" className="text-blue-500 hover:underline">
               Click here
-            </a>{" "}
+            </Link>{" "}
             or call us today &ndash;{" "}
             <a
               href="tel:+13212227176"
