@@ -13,19 +13,21 @@ const TermsOfService = () => {
         <div className="space-y-8 text-gray-700 dark:text-gray-300">
           <section>
             <h2 className="mb-4 text-2xl font-semibold">
-              CleanFold Laundry – Terms of Service
+              CleanFold Laundry &ndash; Terms of Service
             </h2>
             <p>
               PLEASE CAREFULLY READ THESE TERMS AND CONDITIONS OF USE BEFORE
               USING THIS SITE OR ANY OF THE SERVICES AND APPLICATIONS.
             </p>
             <p>
-              The terms and conditions (“Agreement”) apply to CleanFold
-              Laundry's (“CFL”) website (cleanfoldlaundry.com), the related
-              mobile application and/or selected other domains, existing or
-              future, content, products, and services (collectively, the
-              “Services”). As used in this Agreement, “CFL,” “we,” “us,” or
-              “our” shall mean CleanFold Laundry.
+              The terms and conditions (&ldquo;Agreement&rdquo;) apply to
+              CleanFold Laundry&apos;s (&ldquo;CFL&rdquo;) website
+              (cleanfoldlaundry.com), the related mobile application and/or
+              selected other domains, existing or future, content, products, and
+              services (collectively, the &ldquo;Services&rdquo;). As used in
+              this Agreement, &ldquo;CFL,&rdquo; &ldquo;we,&rdquo;
+              &ldquo;us,&rdquo; or &ldquo;our&rdquo; shall mean CleanFold
+              Laundry.
             </p>
           </section>
 
@@ -36,9 +38,7 @@ const TermsOfService = () => {
               you agree to the terms of this Agreement and to the collection,
               use, and disclosure of your information as set forth in our
               Privacy Policy, which establish a contractual relationship between
-              you and CFL. This Agreement supersedes prior agreements or
-              arrangements with you. You should review the Agreement before
-              providing us with any information.
+              you and CFL.
             </p>
             <p>
               If you do not agree with this Agreement, please do not access or
@@ -124,10 +124,10 @@ const TermsOfService = () => {
           <section>
             <h2 className="mb-4 text-xl font-semibold">Disclaimer</h2>
             <p>
-              THE MATERIALS AND THE SERVICES ARE PROVIDED “AS IS” AND WITHOUT
-              WARRANTIES OF ANY KIND EITHER EXPRESS OR IMPLIED. TO THE FULLEST
-              EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, CFL AND ITS
-              OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR REPRESENTATIVES
+              THE MATERIALS AND THE SERVICES ARE PROVIDED &ldquo;AS IS&rdquo;
+              AND WITHOUT WARRANTIES OF ANY KIND EITHER EXPRESS OR IMPLIED. TO
+              THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, CFL AND
+              ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR REPRESENTATIVES
               DISCLAIM WITH RESPECT TO THE SERVICES AND THE MATERIALS HEREIN ALL
               WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
               IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
@@ -140,12 +140,12 @@ const TermsOfService = () => {
               Limitation of Liability
             </h2>
             <p>
-              Under no circumstances, including, but not limited to, negligence,
-              shall CFL or its officers, directors, employees, agents, or
-              representatives be liable to you or any third party for any
-              special, consequential, incidental, direct, indirect, or punitive
-              damages or any other loss or injury that result from the use of,
-              or the inability to use, the Services or the Materials.
+              UNDER NO CIRCUMSTANCES, INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE,
+              SHALL CFL OR ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR
+              REPRESENTATIVES BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY
+              SPECIAL, CONSEQUENTIAL, INCIDENTAL, DIRECT, INDIRECT, OR PUNITIVE
+              DAMAGES OR ANY OTHER LOSS OR INJURY THAT RESULT FROM THE USE OF,
+              OR THE INABILITY TO USE, THE SERVICES OR THE MATERIALS.
             </p>
           </section>
 
