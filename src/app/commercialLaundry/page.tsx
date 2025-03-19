@@ -70,7 +70,7 @@ const CommercialLaundryPage = () => {
           </p>
           <p>
             <strong>Contact Us for your custom quote:</strong>{" "}
-            <a href="#" className="text-blue-500 hover:underline">
+            <a href="/contact" className="text-blue-500 hover:underline">
               Click here
             </a>{" "}
             or call us today &ndash;{" "}
