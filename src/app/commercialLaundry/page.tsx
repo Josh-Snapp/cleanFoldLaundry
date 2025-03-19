@@ -10,90 +10,76 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const Blog = () => {
+const CommercialLaundryPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Commercial Laundry Services"
+        description="FOLDED LAUNDRY ART"
       />
-
-      <section className="pb-[120px] pt-[120px]">
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap justify-center">
-            {blogData.map((blog) => (
-              <div
-                key={blog.id}
-                className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
-              >
-                <SingleBlog blog={blog} />
-              </div>
-            ))}
-          </div>
-
-          <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
-            <div className="w-full px-4">
-              <ul className="flex items-center justify-center pt-8">
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    Prev
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    1
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    2
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    3
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <span className="flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color">
-                    ...
-                  </span>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    12
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    Next
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+      <div className="container mx-auto px-4 py-8">
+        <div className="space-y-6 text-gray-700 dark:text-gray-300">
+          <p>
+            When you run or own a business you have plenty to keep you busy, so
+            don’t let laundry slow you down. Our commercial laundry service will
+            do everything for you. We pickup your industry's laundry from one or
+            multiple locations as often as you need us! We have commercial-grade
+            machines and expert launderers who will take care of all your
+            laundry in a professional manner. Then deliver it right back so it’s
+            ready for you.
+          </p>
+          <p>
+            We work with several types of businesses, and here are just a few:
+          </p>
+          <ul className="list-disc pl-6">
+            <li>Hotels/Motels – towels, comforters, and sheets</li>
+            <li>
+              Air BnB/VRBO – area rugs, linens, towels, blankets, pillows,
+              sheets
+            </li>
+            <li>Day Spas/Med Spas/Gyms – towels, and robes</li>
+            <li>
+              Colleges – student laundry programs, department or specialty
+              laundry
+            </li>
+            <li>Sport Teams – uniforms, towels, and specialty spot cleaning</li>
+            <li>
+              Event Venues/Linen Rentals – table linens, chair linens, napkins
+            </li>
+            <li>
+              Salons/Barbers/Aestheticians/Massage Therapists – towels, sheets
+            </li>
+            <li>Pet Groomers – towels, pet beds, and more</li>
+            <li>
+              Hospitals/Clinics/Doctor’s offices – uniforms, bed linens, and
+              more
+            </li>
+            <li>
+              Industrial Businesses/Mechanics – uniforms, work towels, and rags
+            </li>
+          </ul>
+          <p>
+            If your business is not on the list, don’t worry. We will work with
+            whatever you have to give us and can create a custom cleaning
+            process or quote for your needs.
+          </p>
+          <p>
+            <strong>Contact Us for your custom quote:</strong>{" "}
+            <a href="/contact" className="text-blue-500 hover:underline">
+              Click here
+            </a>{" "}
+            or call us today –{" "}
+            <a
+              href="tel:+13212227176"
+              className="text-blue-500 hover:underline"
+            >
+              321-222-7176 Extension 2
+            </a>
+          </p>
         </div>
-      </section>
+      </div>
     </>
   );
 };
 
-export default Blog;
+export default CommercialLaundryPage;

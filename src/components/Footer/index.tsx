@@ -3,7 +3,7 @@ import CleanFoldLogo from "../Icons/CleanFoldLogo";
 
 const Footer = () => {
   return (
-    <footer className="relative z-10 bg-white pb-8 pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
+    <footer className="relative z-10 bg-white pb-8 pt-16 dark:bg-gray-dark sm:pb-4 md:pt-20 lg:pt-24">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           {/* Logo and Description */}
@@ -35,10 +35,18 @@ const Footer = () => {
               </li>
               <li className="mb-4">
                 <Link
-                  href="/tos"
+                  href="/terms"
                   className="text-sm text-gray-600 hover:text-primary dark:text-gray-400 dark:hover:text-primary"
                 >
                   Terms of Service
+                </Link>
+              </li>
+              <li className="mb-4">
+                <Link
+                  href="/faq"
+                  className="text-sm text-gray-600 hover:text-primary dark:text-gray-400 dark:hover:text-primary"
+                >
+                  FAQ
                 </Link>
               </li>
             </ul>

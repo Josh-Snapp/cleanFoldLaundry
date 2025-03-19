@@ -7,6 +7,9 @@ import { Inter } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 
+import { Providers } from "./providers";
+import StickyButton from "@/components/FooterButton";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
@@ -27,11 +30,10 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+          <StickyButton />
           <ScrollToTop />
         </Providers>
       </body>
     </html>
   );
 }
-
-import { Providers } from "./providers";

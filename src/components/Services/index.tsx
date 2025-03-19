@@ -15,7 +15,7 @@ const Services = () => {
 
   return (
     <>
-      <section id="services" className="lg:pb-15 md:pt-15 pb-16 pt-12 ">
+      <section id="services" className="lg:pb-15 md:pt-15 pb-16 pt-12">
         <div className="container">
           <SectionTitle title="Premier Laundry Services" paragraph="" center />
 

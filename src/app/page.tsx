@@ -24,7 +24,6 @@ export default function Home() {
       <Pricing />
       <Guarantee />
       <Independent />
-      <StickyButton />
     </>
   );
 }

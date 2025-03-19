@@ -3,7 +3,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[50px] md:pt-[150px] xl:pb-[50px] xl:pt-[180px] 2xl:pb-[50px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden bg-white pb-16 pt-[200px] dark:bg-gray-dark md:pb-[50px] md:pt-[150px] xl:pb-[50px] xl:pt-[180px] 2xl:pb-[50px] 2xl:pt-[210px]"
       >
         {
           <div className="container">
