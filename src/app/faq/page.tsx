@@ -1,5 +1,5 @@
 "use client";
-import Breadcrumb from "@/components/Common/Breadcrumb";
+import PageHeader from "@/components/Common/PageHeader";
 import React, { useState } from "react";
 
 const FAQ = () => {
@@ -162,7 +162,7 @@ const FAQ = () => {
 
   return (
     <>
-      <Breadcrumb
+      <PageHeader
         pageName="Frequently Asked Questions"
         description="Common questions and answers about CleanFold Laundry"
       />

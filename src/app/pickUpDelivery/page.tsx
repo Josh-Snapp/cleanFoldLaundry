@@ -1,6 +1,4 @@
-import SingleBlog from "@/components/Blog/SingleBlog";
-import blogData from "@/components/Blog/blogData";
-import Breadcrumb from "@/components/Common/Breadcrumb";
+import PageHeader from "@/components/Common/PageHeader";
 
 import { Metadata } from "next";
 
@@ -13,10 +11,7 @@ export const metadata: Metadata = {
 const PickUpDelivery = () => {
   return (
     <>
-      <Breadcrumb
-        pageName="Pick and Delivery Services"
-        description="We offer pick up and delivery services"
-      />
+      <PageHeader pageName="Pick and Delivery Services" description="" />
 
       <section className="pb-[120px] pt-[120px]">
         <div className="container">

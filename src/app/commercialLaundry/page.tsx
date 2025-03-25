@@ -1,25 +1,27 @@
-import SingleBlog from "@/components/Blog/SingleBlog";
-import blogData from "@/components/Blog/blogData";
-import Breadcrumb from "@/components/Common/Breadcrumb";
-
+import PageHeader from "@/components/Common/PageHeader";
+import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Commercial Laundry ServicesS",
-  description: "FOLDED LAUNDRY ART",
+  title: "Commercial Laundry Services",
+  description: "Commercial Laundry Services",
   // other metadata
 };
 
 const CommercialLaundryPage = () => {
   return (
     <>
-      <Breadcrumb
-        pageName="Commercial Laundry Services"
-        description="FOLDED LAUNDRY ART"
-      />
+      <PageHeader pageName="Commercial Laundry Services" description="" />
       <div className="container mx-auto px-4 py-8">
         <div className="space-y-6 text-gray-700 dark:text-gray-300">
+          <div className="relative mx-auto aspect-[1/1] w-full  md:max-w-[600px] lg:max-w-[600px]">
+            <Image
+              src="/images/commercialLaundry/yachtimage.png"
+              alt="author"
+              fill
+            />
+          </div>
           <p>
             When you run or own a business you have plenty to keep you busy, so
             don&rsquo;t let laundry slow you down. Our commercial laundry

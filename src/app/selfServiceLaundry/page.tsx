@@ -1,7 +1,8 @@
-import Breadcrumb from "@/components/Common/Breadcrumb";
+import PageHeader from "@/components/Common/PageHeader";
 
 import { Metadata } from "next";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
@@ -23,10 +24,7 @@ const SelfServiceLaundry = () => {
   const palmBayLong = -80.62073;
   return (
     <>
-      <Breadcrumb
-        pageName="Self-Service Laundry"
-        description="Our Sister locations provide Self-Service Laundry at the Following Locations"
-      />
+      <PageHeader pageName="Self-Service Laundry" description="" />
 
       <section className="pb-[120px] pt-[40px]">
         <div className="container">
@@ -37,7 +35,12 @@ const SelfServiceLaundry = () => {
           <div className="flex flex-wrap gap-8">
             <div className="min-w-[300px] flex-1">
               <h3 className="mb-2 text-center text-lg font-semibold">
-                Soapy’s South Saint Petersburg
+                <Link
+                  href="https://soapyslaundry.com/"
+                  className="text-primary hover:underline"
+                >
+                  Soapy’s South Saint Petersburg
+                </Link>
               </h3>
               <p className="mb-4 text-center text-sm text-gray-600">
                 3435 15th Ave South
@@ -48,7 +51,12 @@ const SelfServiceLaundry = () => {
             </div>
             <div className="min-w-[300px] flex-1">
               <h3 className="mb-2 text-center text-lg font-semibold">
-                Soapy’s North Saint Petersburg
+                <Link
+                  href="https://soapyslaundry.com/"
+                  className="text-primary hover:underline"
+                >
+                  Soapy’s North Saint Petersburg
+                </Link>
               </h3>
               <p className="mb-4 text-center text-sm text-gray-600">
                 2020 16 th St North
@@ -62,7 +70,14 @@ const SelfServiceLaundry = () => {
           <h2 className="mb-4 pt-[40px] text-center text-2xl font-bold">
             Palm Bay/Melbourne Location
           </h2>
-
+          <h3 className="mb-2 text-center text-lg font-semibold">
+            <Link
+              href="https://palmbayexpress.com/"
+              className="text-primary hover:underline"
+            >
+              Palm Bay Express Laundry
+            </Link>
+          </h3>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="mx-auto min-w-[300px] max-w-[800px] flex-1">
               <p className="mb-4 text-center text-sm text-gray-600">

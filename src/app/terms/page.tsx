@@ -1,10 +1,10 @@
-import Breadcrumb from "@/components/Common/Breadcrumb";
+import PageHeader from "@/components/Common/PageHeader";
 import React from "react";
 
 const TermsOfService = () => {
   return (
     <>
-      <Breadcrumb pageName="Terms of Service" description="" />
+      <PageHeader pageName="Terms of Service" description="" />
       <div className="container mx-auto px-4 py-8">
         <p className="mb-12 text-center text-sm text-gray-500">
           Last Updated: November 20, 2024
@@ -155,10 +155,10 @@ const TermsOfService = () => {
               If you have any questions about these Terms of Service, please
               contact us at{" "}
               <a
-                href="mailto:CleanFoldLaundryUSA@gmail.com"
+                href="mailto:sales@cleanfoldlaundry.com"
                 className="text-blue-500 hover:underline"
               >
-                CleanFoldLaundryUSA@gmail.com
+                sales@cleanfoldlaundry.com
               </a>
               .
             </p>
