@@ -5,8 +5,8 @@ import dynamic from "next/dynamic";
 
 export const metadata: Metadata = {
   title:
-    "Self Service Laundry |ur Sister locations provide Self Service Laundry at the Following Locations",
-  description: "This is Self Service Laundry Page for CleanFoldLaundry",
+    "Self-Service Laundry | Our Sister locations provide Self-Service Laundry at the Following Locations",
+  description: "This is Self-Service Laundry Page for CleanFoldLaundry",
   // other metadata
 };
 
@@ -24,14 +24,14 @@ const SelfServiceLaundry = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Self Service Laundry"
-        description="Our Sister locations provide Self Service Laundry at the Following Locations"
+        pageName="Self-Service Laundry"
+        description="Our Sister locations provide Self-Service Laundry at the Following Locations"
       />
 
       <section className="pb-[120px] pt-[40px]">
         <div className="container">
           <h2 className="mb-4 text-center text-2xl font-bold">
-            Saint Petersburg Locations
+            Saint Petersburg/Tampa Locations
           </h2>
 
           <div className="flex flex-wrap gap-8">

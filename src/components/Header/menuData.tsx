@@ -15,7 +15,7 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Self Service Laundry",
+    title: "Self-Service Laundry",
     path: "/selfServiceLaundry",
     newTab: false,
   },

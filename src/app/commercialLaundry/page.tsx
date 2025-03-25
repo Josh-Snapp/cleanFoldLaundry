@@ -26,42 +26,48 @@ const CommercialLaundryPage = () => {
             service will do everything for you. We pickup your industry&apos;s
             laundry from one or multiple locations as often as you need us! We
             have commercial-grade machines and expert launderers who will take
-            care of all your laundry in a professional manner. Then deliver it
-            right back so it&rsquo;s ready for you.
+            great care of all your laundered items and deliver them back to you
+            in a prompt, professional manner. Then deliver it right back so
+            it&rsquo;s ready for you.
           </p>
-          <p>
-            We work with several types of businesses, and here are just a few:
-          </p>
+          <p>We work with several types of businesses. Here are just a few:</p>
           <ul className="list-disc pl-6">
-            <li>Hotels/Motels &ndash; towels, comforters, and sheets</li>
             <li>
-              Air BnB/VRBO &ndash; area rugs, linens, towels, blankets, pillows,
-              sheets
-            </li>
-            <li>Day Spas/Med Spas/Gyms &ndash; towels, and robes</li>
-            <li>
-              Colleges &ndash; student laundry programs, department or specialty
-              laundry
+              <b>Hotels/Motels &ndash;</b> towels, comforters, and sheets
             </li>
             <li>
-              Sport Teams &ndash; uniforms, towels, and specialty spot cleaning
+              <b>Air BnB/VRBO &ndash;</b> area rugs, linens, towels, blankets,
+              pillows, sheets
             </li>
             <li>
-              Event Venues/Linen Rentals &ndash; table linens, chair linens,
-              napkins
+              <b>Day Spas/Med Spas/Gyms &ndash;</b> towels, and robes
             </li>
             <li>
-              Salons/Barbers/Aestheticians/Massage Therapists &ndash; towels,
-              sheets
-            </li>
-            <li>Pet Groomers &ndash; towels, pet beds, and more</li>
-            <li>
-              Hospitals/Clinics/Doctor&rsquo;s offices &ndash; uniforms, bed
-              linens, and more
+              <b>Colleges &ndash;</b> student laundry programs, department or
+              specialty laundry
             </li>
             <li>
-              Industrial Businesses/Mechanics &ndash; uniforms, work towels, and
-              rags
+              <b>Sport Teams &ndash;</b> uniforms, towels, and specialty spot
+              cleaning
+            </li>
+            <li>
+              <b> Event Venues/Linen Rentals &ndash;</b> table linens, chair
+              linens, napkins
+            </li>
+            <li>
+              <b>Salons/Barbers/Aestheticians/Massage Therapists &ndash;</b>{" "}
+              towels, sheets
+            </li>
+            <li>
+              <b>Pet Groomers &ndash;</b> towels, pet beds, and more
+            </li>
+            <li>
+              <b>Hospitals/Clinics/Doctor&rsquo;s offices &ndash;</b> uniforms,
+              bed linens, and more
+            </li>
+            <li>
+              <b>Industrial Businesses/Mechanics &ndash;</b> uniforms, work
+              towels, and rags
             </li>
           </ul>
           <p>
@@ -75,12 +81,12 @@ const CommercialLaundryPage = () => {
               Click here
             </Link>{" "}
             or call us today &ndash;{" "}
-            <a
+            <Link
               href="tel:+13212227176"
               className="text-blue-500 hover:underline"
             >
-              321-222-7176 Extension 2
-            </a>
+              321-222-7176
+            </Link>
           </p>
         </div>
       </div>

@@ -13,8 +13,8 @@ const Footer = () => {
                 <CleanFoldLogo />
               </Link>
               <p className="mb-6 text-sm leading-relaxed text-gray-600 dark:text-gray-400">
-                Replace with Your laundry DELIVERED FRESH &amp; NEATLY FOLDED
-                within 1 to 2 business days! OR Same Day Service Available!
+                Your laundry DELIVERED FRESH &amp; NEATLY FOLDED within 1 to 2
+                business days! OR Same Day Service Available!
               </p>
             </div>
           </div>

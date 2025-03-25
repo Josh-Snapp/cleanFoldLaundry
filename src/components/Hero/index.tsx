@@ -14,13 +14,21 @@ const Hero = () => {
                     Clean Fold Laundry
                   </h1>
                   <p className="mb-6 text-lg text-gray-600 dark:text-gray-300">
-                    Our Premier Laundry Service offers pickup and delivery
-                    service, to make laundry easy by skipping it and leaving it
-                    to us. Your Laundry Delivered to your door. Sign up for
-                    weekly or bi-weekly service for already discounted services.
+                    As your local, premier laundry pickup-and-delivery service,
+                    let us help you “take a load off” by doing laundry for you.
+                    We offer full-service, reliable pickup and delivery to homes
+                    and businesses. Unlike our competitors who use 3rd-party
+                    processors, we are proudly family-owned and operated which
+                    means you know exactly who is doing your laundry every step
+                    of the way. We offer one-time servicing, as well as
+                    discounted recurring service for those who find they enjoy
+                    having their time back!
                     <br />
-                    USE PROMO CODE “TRY 10” to save 10 Percent on your first
-                    order today.
+                    <br />
+                    <b>
+                      Use promo code “TRY10” to save 10% off your first order
+                      today!
+                    </b>
                   </p>
                 </div>
               </div>
