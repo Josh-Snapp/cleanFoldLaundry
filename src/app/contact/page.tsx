@@ -28,7 +28,7 @@ Custom quote."
         {/* Image */}
         <div className="relative w-full md:w-1/2">
           <Image
-            src="/images/logo/cleanFoldPoster.png" // Replace with the actual path to your CleanFold image
+            src="/images/logo/cleanFoldPoster.png"
             alt="CleanFold Logo"
             width={500}
             height={500}
