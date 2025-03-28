@@ -3,8 +3,8 @@ import PageHeader from "@/components/Common/PageHeader";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page",
-  description: "This is About Page for Clean Fold Laundry",
+  title: "About Us",
+  description: "This is About Us for Clean Fold Laundry",
   // other metadata
 };
 
@@ -12,11 +12,10 @@ const AboutPage = () => {
   return (
     <>
       <PageHeader
-        pageName="About Page"
+        pageName="About Us"
         description="Learn more about our company"
       />
       <div className="container mx-auto px-4 py-8">
-        <h1 className="mb-8 text-center text-3xl font-bold">About Us</h1>
         <div className="space-y-6 text-gray-700 dark:text-gray-300">
           <p>
             CleanFold Laundry is locally owned and operated by a caring team of

@@ -13,9 +13,9 @@ const CommercialLaundryPage = () => {
   return (
     <>
       <PageHeader pageName="Commercial Laundry Services" description="" />
-      <div className="container mx-auto px-4 py-8">
-        <div className="space-y-6 text-gray-700 dark:text-gray-300">
-          <div className="relative mx-auto aspect-[1/1] w-full  md:max-w-[600px] lg:max-w-[600px]">
+      <div className="flex items-center justify-center">
+        <div className="container mx-auto space-y-6 px-4 py-8 text-center text-gray-700 dark:text-gray-300">
+          <div className="relative mx-auto aspect-[1/1] w-full md:max-w-[600px] lg:max-w-[600px]">
             <Image
               src="/images/commercialLaundry/yachtimage.png"
               alt="author"
@@ -33,43 +33,31 @@ const CommercialLaundryPage = () => {
             it&rsquo;s ready for you.
           </p>
           <p>We work with several types of businesses. Here are just a few:</p>
-          <ul className="list-disc pl-6">
+          <ul className="mx-auto inline-block list-disc pl-6 text-left">
+            <li>Hotels/Motels – towels, comforters, and sheets</li>
             <li>
-              <b>Hotels/Motels &ndash;</b> towels, comforters, and sheets
+              Air BnB/VRBO – area rugs, linens, towels, blankets, pillows,
+              sheets
+            </li>
+            <li>Day Spas/Med Spas/Gyms – towels, and robes</li>
+            <li>
+              Colleges – student laundry programs, department or specialty
+              laundry
+            </li>
+            <li>Sport Teams – uniforms, towels, and specialty spot cleaning</li>
+            <li>
+              Event Venues/Linen Rentals – table linens, chair linens, napkins
             </li>
             <li>
-              <b>Air BnB/VRBO &ndash;</b> area rugs, linens, towels, blankets,
-              pillows, sheets
+              Salons/Barbers/Aestheticians/Massage Therapists – towels, sheets
+            </li>
+            <li>Pet Groomers – towels, pet beds, and more</li>
+            <li>
+              Hospitals/Clinics/Doctor&rsquo;s offices – uniforms, bed linens,
+              and more
             </li>
             <li>
-              <b>Day Spas/Med Spas/Gyms &ndash;</b> towels, and robes
-            </li>
-            <li>
-              <b>Colleges &ndash;</b> student laundry programs, department or
-              specialty laundry
-            </li>
-            <li>
-              <b>Sport Teams &ndash;</b> uniforms, towels, and specialty spot
-              cleaning
-            </li>
-            <li>
-              <b> Event Venues/Linen Rentals &ndash;</b> table linens, chair
-              linens, napkins
-            </li>
-            <li>
-              <b>Salons/Barbers/Aestheticians/Massage Therapists &ndash;</b>{" "}
-              towels, sheets
-            </li>
-            <li>
-              <b>Pet Groomers &ndash;</b> towels, pet beds, and more
-            </li>
-            <li>
-              <b>Hospitals/Clinics/Doctor&rsquo;s offices &ndash;</b> uniforms,
-              bed linens, and more
-            </li>
-            <li>
-              <b>Industrial Businesses/Mechanics &ndash;</b> uniforms, work
-              towels, and rags
+              Industrial Businesses/Mechanics – uniforms, work towels, and rags
             </li>
           </ul>
           <p>
